@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	portWrite := &serial.Port{Name: "/dev/ttys024", Baund: 9600}
-	portRead := &serial.Port{Name: "/dev/ttys025", Baund: 9600}
+	portWrite := &serial.Port{Name: "/dev/ttys003", Baund: 9600}
+	portRead := &serial.Port{Name: "/dev/ttys004", Baund: 9600}
 
 	err := serial.InitPort(portRead)
 	if err != nil {
